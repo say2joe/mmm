@@ -1,0 +1,6 @@
+{
+    "db": "mongodb://localhost/mean-dev",
+    "app": {
+        "name": "mmm - Mobile Majority with MEAN (example) - Development"
+    }
+}

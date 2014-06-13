@@ -1,0 +1,7 @@
+{
+    "db": "mongodb://localhost/mean-travis",
+    "port": 3001,
+    "app": {
+        "name": "mmm - Mobile Majority with MEAN (example) - Test on travis"
+    }
+}
