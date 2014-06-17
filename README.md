@@ -16,7 +16,7 @@ mmm
 
     Download and Install Yeoman from the CLI
     ```bash
-    npm install -g yo
+    $ npm install -g yo
     ```
 
 ##Setup
