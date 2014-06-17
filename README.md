@@ -4,13 +4,16 @@ mmm
 #Mobile Majority with MEAN
 
 ##Install
-- Node.js
+- Node.js:
+
     Download and Install Node.js
 
 - MongoDB
+
     Download and Install MongoDB - Make sure it's running on the default port (27017).
 
 - Yeoman
+
     Download and Install Yeoman: npm install -g yo
 
 ##Setup
@@ -19,5 +22,5 @@ From the CLI, go to the directory where you've unpacked this repo's files.
 $ node server
 ```
 
-##View the site
+###View the site
 [Open your browser](http://localhost:3000)
