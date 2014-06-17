@@ -14,7 +14,7 @@ mmm
 
 - Yeoman:
 
-    Download and Install Yeoman: 
+    Download and Install Yeoman from the CLI
     ```bash
     npm install -g yo
     ```
