@@ -3,6 +3,7 @@ mmm
 
 #Mobile Majority with MEAN
 
+
 ##Install
 - Node.js:
 
@@ -19,11 +20,12 @@ mmm
     $ npm install -g yo
     ```
 
-##Setup
+
+##Start Node Server
 From the CLI, go to the directory where you've unpacked this repo's files.
 ```bash
 $ node server
 ```
 
-###View the site
-[Open your browser](http://localhost:3000)
+
+###[View the site](http://localhost:3000)
