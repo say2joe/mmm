@@ -20,4 +20,4 @@ $ node server
 ```
 
 ##View the site
-http://localhost:3000
+[Open your browser](http://localhost:3000)
