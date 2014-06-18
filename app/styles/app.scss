@@ -30,12 +30,30 @@ body {
     }
     
     .reporting {
+        
         background-color: #ccc;
         border: 2px solid #eee;
         border-radius: 7px;
         text-align: center;
         padding: 33px;
         clear: both;
+
+        text {
+            font: 10px sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        form {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
     }
     
 }

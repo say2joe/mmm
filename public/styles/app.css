@@ -7665,3 +7665,20 @@ body {
   padding: 33px;
   clear: both;
 }
+/* line 41, ../../app/styles/app.scss */
+.container .reporting text {
+  font: 10px sans-serif;
+}
+/* line 46, ../../app/styles/app.scss */
+.container .reporting .axis path,
+.container .reporting .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+/* line 52, ../../app/styles/app.scss */
+.container .reporting form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
