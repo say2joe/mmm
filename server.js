@@ -43,8 +43,9 @@ require('./config/routes')(app);
 
 //Start the app by listening on <port>
 var port = config.port;
-app.listen(port);
-console.log('Express app started on port ' + port);
+app.listen(port, function() {
+    console.log('Listening on port %d', port);
+});
 
 //expose app
 exports = module.exports = app;

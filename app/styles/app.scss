@@ -1,7 +1,41 @@
 /** Main styles go here **/
 $icon-font-path: "sass-bootstrap/fonts/";
-@import 'app/components/sass-bootstrap/lib/bootstrap';
+@import 'sass-bootstrap/lib/bootstrap';
 
 body {
     margin: 24px 0;
+}
+
+.container {
+    
+    img {
+        &#Ad-711 {
+            margin-bottom: 10px;
+            margin-top: -30px;
+            float: right;
+            height: 25%;
+            width: 25%;
+        }
+        border: 3px solid silver;
+        border-radius: 7px;
+        width: 640px;        
+        margin: 3px;
+        float: left;
+    }
+    
+    .jumbotron {
+        background-color: skyblue;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .reporting {
+        background-color: #ccc;
+        border: 2px solid #eee;
+        border-radius: 7px;
+        text-align: center;
+        padding: 33px;
+        clear: both;
+    }
+    
 }

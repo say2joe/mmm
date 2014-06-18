@@ -21,10 +21,10 @@ mmm
     ```
 
 
-##Start Node Server
+##Start Node Server (after tests)
 From the CLI, go to the directory where you've unpacked this repo's files.
 ```bash
-$ node server
+$ grunt
 ```
 
 
