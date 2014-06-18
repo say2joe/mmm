@@ -5,12 +5,12 @@ angular.module('mean.system', []);
 
 // Setup global variables
 var app = app || angular, MMM = MMM || {
-    title: "Mobile Majority (with MEAN)"
+    title: 'Mobile Majority (with MEAN)'
 };
 
 // Use module pattern for scope
 (function(ng, ns, global, undefined) {
     
-    debugger;
+    console.log('ng:', ng, 'ns:', ns, 'global:', global);
     
 })(app, MMM, window);
