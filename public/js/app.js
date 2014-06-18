@@ -4,13 +4,17 @@ angular.module('mean', ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.router', 
 angular.module('mean.system', []);
 
 // Setup global variables
-var app = app || angular, MMM = MMM || {
-    title: 'Mobile Majority (with MEAN)'
-};
+var app = app || angular,
+    d3 = d3 || app.noop,
+    MMM = MMM || {
+        title: 'Mobile Majority (with MEAN)',
+        ng: app,
+        d3: d3
+    };
 
 // Use module pattern for scope
-(function(ng, ns, global, undefined) {
+(function(app, global, undefined) {
     
-    console.log('ng:', ng, 'ns:', ns, 'global:', global);
+    console.log('app:', app, 'global:', global);
     
-})(app, MMM, window);
+})(MMM, window);
