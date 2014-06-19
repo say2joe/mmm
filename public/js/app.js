@@ -1,9 +1,9 @@
 'use strict';
 
-angular.module('mean', ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.router', 'mean.system']);
+angular.module('mean', ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.router', 'mean.system', 'd3']);
 angular.module('mean.system', []);
 
-// Setup global variables
+// Setup global variables and namespace
 var app = app || angular,
     d3 = d3 || app.noop,
     MMM = MMM || {
@@ -21,6 +21,7 @@ var app = app || angular,
 
     function changeGraphType() {
         clearTimeout(timeout);
+        /*jshint validthis: true */
         if (this.value === 'grouped') transitionGrouped();
         else transitionStacked();
     }
